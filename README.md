@@ -30,7 +30,14 @@ Examples of RF ICs - CC2650, CC1310, AT86RF215, nRF24L01P(+) ans so many more in
 
 #### 3) 50 Ohms everywhere:     
 Try to match everything to 50 ohms. If a component is not 50 ohms I/O or whatever, convert it to 50 ohms.     
-How? - Refer to it's Datasheet (Matching/Application Circuit)
-* Follow Manufacturer Recommendations (for matching)
-* Route RF first
+How? - Refer to it's Datasheet (Matching/Application Circuit)    
+
+* Follow Manufacturer Recommendations (for matching)  -------------  **(4)**      
+
+##### Note: For matching the RF traces on the Top layer of the circuit board to 50 Ohms, they have to be 12 mils wide (Considering the 4 layer board stackup specifications as mentioned above). So, on Eagle, Set - Trace width = 12 mils, Trace thickness = 1.4 mils             
+
+After making your circuit, with all the above rules in mind:       
+* Route RF first  --------------  **(5)**    
+* Keep RF traces short and direct     
+* Keep other signals away from RF (keep buffer zones next to RF traces, try to route other signals considerable away from RF signals)         
 

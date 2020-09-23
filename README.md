@@ -10,7 +10,7 @@
 
 * Use a consistent stack-up            
 * Dedicate entire inner layers to unbroken power supply planes           
-* Keep RF Signals on Top        
+* Keep RF Signals on Top     
 
 ##### 4-Layer Board stackup:   
 The 4 layer board stackup is as follows:      
@@ -22,7 +22,9 @@ The 4 layer board stackup is as follows:
 * 0.5 oz Cu (0.7 mil)           
 * 6.7 mil prepreg        
 * 1 oz Cu (1.4 mil)         
-* 1 mil solder resist      
+* 1 mil solder resist         
+
+[Setting up Multi-layer on Eagle](https://youtu.be/0sVUkjXbqrM)            
 
 #### 2) Choose Integrated components:     
 Try to choose and use the most integrated components - RF ICs, Baluns, Filters, etc.     
